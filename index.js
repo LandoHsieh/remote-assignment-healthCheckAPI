@@ -2,7 +2,7 @@ import express from 'express'
 import { emailExisted, createUser, showAllUser, searchUser } from './database.js'
 
 const app = express()
-const PORT = 80
+const PORT = 3000
 
 //Regular expressions
 const nameRegex = /^[a-zA-Z0-9]+$/
